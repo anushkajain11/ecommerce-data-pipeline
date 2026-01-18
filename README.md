@@ -452,7 +452,3 @@ ORD002,Phone,Electronics,1,599.99,5,uk,01/20/2024,569.99
 ### Logging
 
 Spark logs are written to the console. For more detailed logging, configure log4j properties.
-
-## License
-
-This project is provided as-is for educational and demonstration purposes.
