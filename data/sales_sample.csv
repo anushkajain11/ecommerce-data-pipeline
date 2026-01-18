@@ -1,0 +1,103 @@
+order_id,product_name,category,quantity,unit_price,discount_percent,region,sale_date,revenue
+ORD001,Laptop Computer,Electronics,2,999.99,10.0,us,2024-01-15,1799.98
+ORD002,Smart Phone,Electronics,1,599.99,5.0,uk,01/20/2024,569.99
+ORD003,Wireless Headphones,Electronics,3,79.99,0,Canada,2024-01-22,239.97
+ORD001,Laptop Computer,Electronics,2,999.99,10.0,us,2024-01-15,1799.98
+ORD004,Gaming Mouse,electronics,5,29.99,15.0,USA,02/05/2024,127.46
+ORD005,Mechanical Keyboard,Electronics,-2,149.99,0,Australia,2024-02-10,0
+ORD006,Monitor 27inch,Electronics,1,299.99,20.0,Germany,15-02-2024,239.99
+ORD007,USB Cable,Electronics,10,9.99,0,fr,2024/03/01,99.90
+ORD008,Tablet Stand,Accessories,2,34.99,5.5,india,03/15/2024,66.14
+ORD009,Webcam HD,Electronics,1,89.99,10.0,cn,2024-03-20,80.99
+ORD010,Desk Lamp,Home & Office,4,24.99,0,Japan,04-01-2024,99.96
+ORD011,Notebook,Stationery,50,2.99,2.0,uk,2024/04/10,146.51
+ORD012,Pen Set,stationery,20,12.99,0,US,04-20-2024,259.80
+ORD013,Stapler,Office Supplies,3,15.99,10.0,canada,2024-05-01,43.17
+ORD014,Paper Shredder,Office Equipment,1,199.99,25.0,AUS,05/15/2024,149.99
+ORD015,Printer Ink,Office Supplies,6,49.99,0,Germany,2024-06-01,299.94
+ORD016,Wireless Mouse,Electronics,abc,19.99,0,United States,06-10-2024,0
+ORD017,Keyboard Wrist Rest,Accessories,2,14.99,5.0,UK,2024/07/01,28.48
+ORD018,Mouse Pad,Accessories,10,8.99,0,can,07-15-2024,89.90
+ORD019,Monitor Stand,Accessories,1,59.99,15.0,france,2024-08-01,50.99
+ORD020,Desk Organizer,Home & Office,3,19.99,0,India,08/20/2024,59.97
+ORD021,LED Strip Lights,Home Decor,2,34.99,10.0,China,2024-09-01,62.98
+ORD022,Cable Management,Accessories,5,12.99,5.0,japan,09-15-2024,61.70
+ORD023,Power Strip,Electronics,4,24.99,0,usa,2024/10/01,99.96
+ORD024,Surge Protector,Electronics,2,39.99,20.0,United Kingdom,10-20-2024,63.98
+ORD025,Ethernet Cable,Electronics,10,7.99,0,Canada,2024-11-01,79.90
+ORD026,HDMI Cable,Electronics,8,14.99,0,AUSTRALIA,11/15/2024,119.92
+ORD027,Microphone,Electronics,1,129.99,10.0,germany,2024-12-01,116.99
+ORD028,Speaker System,Electronics,1,249.99,15.0,FR,12-10-2024,212.49
+ORD029,Bluetooth Adapter,Electronics,3,19.99,0,IN,2024-12-20,59.97
+ORD030,Docking Station,Electronics,1,179.99,25.0,JP,12/25/2024,134.99
+ORD031,External HDD 1TB,Electronics,2,79.99,10.0,us,2024-01-05,143.98
+ORD032,SSD 500GB,Electronics,4,69.99,0,uk,01/12/2024,279.96
+ORD033,RAM 16GB,Electronics,2,89.99,5.0,canada,2024-01-18,170.98
+ORD034,Graphics Card,Electronics,1,599.99,0,USA,02/01/2024,599.99
+ORD035,CPU Cooler,Electronics,2,49.99,15.0,Australia,2024-02-08,84.98
+ORD036,Motherboard,Electronics,1,199.99,10.0,Germany,02-15-2024,179.99
+ORD037,Power Supply,Electronics,1,129.99,5.0,france,2024/03/01,123.49
+ORD038,Case Fans,Electronics,5,12.99,0,india,03-10-2024,64.95
+ORD039,RGB Fans,Electronics,3,19.99,10.0,china,2024/03/20,53.97
+ORD040,Cable Extensions,Accessories,10,9.99,0,japan,04-01-2024,99.90
+ORD041,Thermal Paste,Accessories,3,7.99,0,us,2024/04/10,23.97
+ORD042,Screwdriver Set,Tools,1,24.99,0,UK,04-20-2024,24.99
+ORD043,Anti-Static Mat,Tools,2,34.99,10.0,Canada,2024/05/01,62.98
+ORD044,Zip Ties,Accessories,100,4.99,0,AUS,05-15-2024,499.00
+ORD045,Label Maker,Office Equipment,1,89.99,15.0,Germany,2024/06/01,76.49
+ORD046,Binder Clips,Office Supplies,50,3.99,0,FR,06-10-2024,199.50
+ORD047,Folder Set,Office Supplies,10,12.99,5.0,India,2024/07/01,123.40
+ORD048,File Organizer,Office Equipment,3,19.99,0,China,07-15-2024,59.97
+ORD049,Document Scanner,Office Equipment,1,349.99,20.0,Japan,2024/08/01,279.99
+ORD050,Multifunction Printer,Office Equipment,1,199.99,10.0,usa,08-20-2024,179.99
+ORD051,Standing Desk,Home & Office,1,599.99,0,United Kingdom,2024/09/01,599.99
+ORD052,Desk Chair,Home & Office,1,299.99,15.0,canada,09-15-2024,254.99
+ORD053,Monitor Arm,Accessories,2,79.99,10.0,Australia,2024/10/01,143.98
+ORD054,Foot Rest,Home & Office,1,24.99,0,germany,10-20-2024,24.99
+ORD055,Desk Mat,Home & Office,1,34.99,5.0,france,2024/11/01,33.24
+ORD056,Storage Drawers,Home & Office,2,49.99,10.0,india,11-15-2024,89.98
+ORD057,Bookcase,Home & Office,1,149.99,0,china,2024/12/01,149.99
+ORD058,Shelf Organizer,Home & Office,3,19.99,5.0,japan,12-10-2024,56.97
+ORD059,Wall Clock,Home Decor,1,29.99,0,us,2024-12-20,29.99
+ORD060,Desk Calendar,Home & Office,1,14.99,10.0,uk,12/25/2024,13.49
+ORD061,Laptop Sleeve,Accessories,5,24.99,0,Canada,2024-01-08,124.95
+ORD062,Backpack,Accessories,2,79.99,15.0,USA,01/16/2024,135.98
+ORD063,Portable Charger,Electronics,4,39.99,0,Australia,2024-01-25,159.96
+ORD064,Cable Organizer,Accessories,10,6.99,5.0,Germany,02-03-2024,66.40
+ORD065,Screen Protector,Accessories,3,12.99,0,france,2024/02/10,38.97
+ORD066,Phone Case,Accessories,8,14.99,10.0,india,02-18-2024,107.93
+ORD067,Tablet Case,Accessories,2,29.99,5.0,china,2024/03/05,56.98
+ORD068,Stylus Pen,Accessories,5,19.99,0,japan,03-12-2024,99.95
+ORD069,Screen Cleaner,Accessories,10,4.99,0,us,2024/03/22,49.90
+ORD070,Microfiber Cloth,Accessories,20,2.99,0,UK,04-02-2024,59.80
+ORD071,Laptop Stand,Accessories,3,49.99,10.0,canada,2024/04/15,134.97
+ORD072,Cooling Pad,Accessories,2,34.99,15.0,AUS,04-25-2024,59.48
+ORD073,USB Hub,Electronics,5,24.99,0,Germany,2024/05/05,124.95
+ORD074,Card Reader,Electronics,3,12.99,5.0,FR,05-12-2024,37.02
+ORD075,External SSD,Electronics,2,129.99,10.0,India,2024/05/20,233.98
+ORD076,Network Switch,Electronics,1,79.99,0,China,06-05-2024,79.99
+ORD077,Wifi Extender,Electronics,2,59.99,15.0,Japan,2024/06/15,101.98
+ORD078,Security Camera,Electronics,1,199.99,20.0,usa,06-25-2024,159.99
+ORD079,Doorbell Camera,Electronics,1,249.99,10.0,United Kingdom,2024/07/05,224.99
+ORD080,Smart Light Bulb,Home Automation,4,19.99,0,canada,07-18-2024,79.96
+ORD081,Smart Plug,Home Automation,6,14.99,5.0,Australia,2024/08/02,85.43
+ORD082,Thermostat,Home Automation,1,199.99,0,germany,08-15-2024,199.99
+ORD083,Smart Lock,Home Automation,1,299.99,15.0,france,2024/09/01,254.99
+ORD084,Motion Sensor,Home Automation,3,29.99,10.0,india,09-20-2024,80.97
+ORD085,Smart Speaker,Home Automation,2,99.99,0,china,2024/10/05,199.98
+ORD086,Voice Assistant,Home Automation,1,79.99,20.0,japan,10-25-2024,63.99
+ORD087,Streaming Device,Electronics,3,49.99,5.0,us,2024/11/01,142.47
+ORD088,Gaming Controller,Electronics,2,59.99,0,uk,11-10-2024,119.98
+ORD089,Racing Wheel,Electronics,1,299.99,10.0,Canada,2024/12/01,269.99
+ORD090,VR Headset,Electronics,1,399.99,15.0,USA,12-15-2024,339.99
+ORD091,Smart Watch,Electronics,3,199.99,0,Australia,2024-01-12,599.97
+ORD092,Fitness Tracker,Electronics,5,79.99,10.0,Germany,01-28-2024,359.96
+ORD093,Sleep Monitor,Electronics,2,149.99,5.0,france,2024/02/14,284.98
+ORD094,Blood Pressure Monitor,Health & Wellness,1,89.99,0,india,02-22-2024,89.99
+ORD095,Scale Smart,Health & Wellness,2,49.99,15.0,china,2024/03/08,84.98
+ORD096,Air Purifier,Home Appliances,1,199.99,10.0,japan,03-18-2024,179.99
+ORD097,Humidifier,Home Appliances,3,59.99,0,us,2024/04/08,179.97
+ORD098,Dehumidifier,Home Appliances,1,149.99,20.0,UK,04-22-2024,119.99
+ORD099,Robot Vacuum,Home Appliances,1,299.99,0,canada,2024/05/10,299.99
+ORD100,Smart Door Lock,Home Automation,2,249.99,10.0,AUS,05-28-2024,449.98
+

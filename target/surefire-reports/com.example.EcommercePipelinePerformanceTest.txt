@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: com.example.EcommercePipelinePerformanceTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.611 s <<< FAILURE! -- in com.example.EcommercePipelinePerformanceTest
+com.example.EcommercePipelinePerformanceTest -- Time elapsed: 0.611 s <<< ERROR!
+java.lang.UnsupportedOperationException: getSubject is not supported
+	at java.base/javax.security.auth.Subject.getSubject(Subject.java:277)
+	at org.apache.hadoop.security.UserGroupInformation.getCurrentUser(UserGroupInformation.java:577)
+	at org.apache.spark.util.Utils$.$anonfun$getCurrentUserName$1(Utils.scala:2416)
+	at scala.Option.getOrElse(Option.scala:189)
+	at org.apache.spark.util.Utils$.getCurrentUserName(Utils.scala:2416)
+	at org.apache.spark.SparkContext.<init>(SparkContext.scala:334)
+	at org.apache.spark.SparkContext$.getOrCreate(SparkContext.scala:2888)
+	at org.apache.spark.sql.SparkSession$Builder.$anonfun$getOrCreate$2(SparkSession.scala:1099)
+	at scala.Option.getOrElse(Option.scala:189)
+	at org.apache.spark.sql.SparkSession$Builder.getOrCreate(SparkSession.scala:1093)
+	at com.example.EcommercePipelinePerformanceTest.setUpSpark(EcommercePipelinePerformanceTest.java:40)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.concurrent.RecursiveAction.exec(RecursiveAction.java:194)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:511)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1450)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:2019)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:187)
+

@@ -1,0 +1,36 @@
+Objective
+Design and implement a scalable data engineering pipeline that ingests, cleans, transforms, and analyzes a large, messy
+e-commerce sales dataset (approximately 100 million rows). You may use any appropriate existing tools or libraries to
+complete this task.
+
+Input Data Characteristics
+Key fields include:
+● order_id (duplicates possible)
+● product_name, category (dirty, inconsistent values)
+● quantity (strings, zero/negative values)
+● unit_price, discount_percent (invalid ranges possible)
+● region (typos, variants)
+● sale_date (multiple formats, nulls)
+● revenue (derived field)
+
+
+Core Tasks
+1. Ingestion
+● Load ~100M rows from CSV
+● Use chunked reading and memory-efficient structures
+
+2. Cleansing & Normalization
+● Identify data quality issues and inconsistencies
+● Apply and document custom cleaning rules (e.g., typo correction, validation, null handling)
+
+3. Transformations
+Produce analytical datasets:
+● monthly_sales_summary (revenue, quantity, avg discount by month)
+● top_products (top 10 by revenue and units)
+● anomaly_records (top 5 highest-revenue records)
+
+
+Deliverables
+Submit a GitHub repo or ZIP containing:
+● Source code
+● README documentation
