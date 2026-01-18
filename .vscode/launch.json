@@ -1,0 +1,26 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+
+
+        {
+            "type": "java",
+            "name": "Run Main",
+            "request": "launch",
+            "mainClass": "com.example.Main",
+            "projectName": "ecommerce-pipeline",
+            "args": "data/sales_sample.csv output/",
+            "vmArgs": "--add-opens=java.base/sun.nio.ch=ALL-UNNAMED --add-opens=java.base/java.nio=ALL-UNNAMED"
+        },
+        {
+            "type": "java",
+            "name": "Run SampleDataGenerator",
+            "request": "launch",
+            "mainClass": "com.example.SampleDataGenerator",
+            "projectName": "ecommerce-pipeline",
+            "args": "1000 data/sales_large.csv",
+            "vmArgs": "--add-opens=java.base/sun.nio.ch=ALL-UNNAMED --add-opens=java.base/java.nio=ALL-UNNAMED"
+        }
+    ]
+}
+
