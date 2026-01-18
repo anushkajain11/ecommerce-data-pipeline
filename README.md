@@ -132,6 +132,14 @@ The sample data includes various data quality issues that the pipeline is design
 
 ### Running the Pipeline
 
+Starting with Java 16, the JDK strictly enforces "Strong Encapsulation," which prevents libraries like Apache Spark from accessing internal Java APIs (like sun.nio.ch) unless you explicitly permit it.Spark uses these internal APIs for high-performance memory management, but the Java Module System now blocks this by default.
+
+The easiest way to fix this without changing your code or pom.xml is to set an environment variable that tells the JVM to "open" the necessary packages to Spark.
+
+```bash
+export MAVEN_OPTS="--add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.base/java.lang.reflect=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.net=ALL-UNNAMED --add-opens=java.base/java.nio=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens=java.base/sun.nio.ch=ALL-UNNAMED --add-opens=java.base/sun.nio.cs=ALL-UNNAMED --add-opens=java.base/sun.security.action=ALL-UNNAMED --add-opens=java.util.prefs/java.util.prefs=ALL-UNNAMED"
+```
+
 The pipeline accepts two command-line arguments:
 1. `inputPath`: Path to the input CSV file
 2. `outputPath`: Directory where output datasets will be written
@@ -144,6 +152,8 @@ mvn exec:java -Dexec.mainClass="com.example.Main" \
 # Or using java directly (after compilation)
 java -cp target/classes com.example.Main data/sales_sample.csv output/
 ```
+
+
 
 ### Input Data Format
 
